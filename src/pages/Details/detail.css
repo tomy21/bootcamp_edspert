@@ -1,0 +1,57 @@
+.container-detail{
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.image-detail img{
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 20px #333;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.title-detail{
+    font-size: 42px;
+    font-weight: 900;
+}
+.overview-detail{
+    font-size: 18px;
+    text-align: justify;
+}
+.footer-detail{
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    align-items: center;
+}
+.price-detail{
+    font-size: 32px;
+    font-weight: 800;
+    color: green;
+    width: 50%;
+}
+.btn-checkout{
+    width: 20%;
+    padding: 20px 0px;
+    background: rgb(203, 254, 203);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: green;
+    cursor: pointer;
+}
+.btn-cancel{
+    width: 20%;
+    padding: 20px 0px;
+    background: rgb(254, 203, 203);
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+}

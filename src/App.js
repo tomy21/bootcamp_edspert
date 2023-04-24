@@ -1,16 +1,10 @@
 import './App.css';
-import Header from "./pages/Header"
-import Contents from "./pages/Contents"
-import Footer from "./pages/Footer"
-import Pagination from './components/Pagination';
+import RouterREST from './routerREST'
 
 function App() {
   return (
   <div>
-    <Header/>
-    <Contents/>
-    <Pagination/>
-    <Footer/>
+    <RouterREST/>
   </div>
   )
 }
