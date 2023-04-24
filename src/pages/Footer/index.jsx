@@ -38,8 +38,7 @@ export default function () {
                         </div>
                         
                         <div className="right-footer-down">
-                            Edspert, copyright. Alamat boleh ditaruh disini apabila
-                            diinginkan.
+                            Edspert, copyright. Serpong Garden Village Blok D4 No 18, Parung Panjang, Kab. Bogor, Jawa Barat
                         </div>
                     </div>
                 </div>
