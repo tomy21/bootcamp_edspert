@@ -1,0 +1,35 @@
+.container{
+    height: 100vh;
+    background: #A5D7E8;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 150px 50px;
+    align-items: center;
+}
+.hero-right .circle1{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 1120px;
+    top: 120px;
+    background: #576bbc91;
+    border-radius: 50%;
+    box-shadow: 5px 9px 60px #ffff;
+}
+.hero-right img{
+    position: relative;
+}
+.hero-left{
+    width: 30%;
+}
+.hero-left h1{
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+.hero-left p{
+    letter-spacing: 1px;
+    font-size: 18px;
+}

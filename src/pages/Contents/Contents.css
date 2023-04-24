@@ -1,0 +1,30 @@
+aside{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-header{
+    font-size: 28px;
+    letter-spacing: 2px;
+    font-weight: 900;
+}
+.search-header input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid rgb(191, 191, 191);
+    border-radius: 5px;
+    color: rgb(203, 203, 203);
+}
+.body-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
